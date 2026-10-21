@@ -1,15 +1,17 @@
 <!-- ================================================================
      ConQU2027 — ROBOCON 2027 参赛队 · 组织简介
      赛事官网：https://www.robocon.org.cn/sys-index/
-     原有图片链接保持不变
      ================================================================ -->
 
 <p align="center">
-  <a href="https://github.com/ConQU2027"><img src="https://github.com/ConQU2027/.github/blob/main/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20261021164108_286_17.png" height="400" alt="ConQU2027"></a>
-  <a href="https://www.robocon.org.cn/sys-index/"><img src="https://github.com/ConQU2027/.github/blob/main/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20261021164113_288_17.png" height="400" alt="重庆大学"></a>
+  <a href="https://github.com/ConQU2027">
+    <img src="https://github.com/ConQU2027/.github/blob/main/%E5%BE%AE%E4%BF%A8%E5%9B%BE%E7%89%87_20261021164108_286_17.png" width="420" alt="ConQU2027" />
+    <img src="https://github.com/ConQU2027/.github/blob/main/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20261021164113_288_17.png" height="400" alt="重庆大学"></a>
+  </a>
 </p>
+
 <div align="center">
-<img src="https://raw.githubusercontent.com/ConQU2027/.github/main/metrics.svg" alt="ConQU2027 Metrics" width="100%">
+  <img src="https://raw.githubusercontent.com/ConQU2027/.github/main/metrics.svg" alt="ConQU2027 metrics" width="100%" />
 </div>
 
 # ConQU2027
@@ -33,48 +35,56 @@
 
 ## 📖 关于我们
 
-**ConQU2027 是征战 ROBOCON 2027 赛季的参赛队伍。2027 赛季的主题是 **“女娲补天”** ，参赛队需要设计并制作两台机器人——**TR（搬运机器人）** 与 **BR（建筑机器人）** ——协同完成规则设定的高难度任务[reference:1]。
-我们的仓库是这一赛季从规则分析、机械设计、电控制作到赛场调试的**全部技术产出与协作记录**。
+ConQU2027 是征战 ROBOCON 2027 赛季的参赛队伍。2027 赛季主题为“女娲补天”，我们需要设计并制作两台核心机器人：**TR（搬运机器人）** 与 **BR（建筑机器人）**。
 
-> 🔗 **官方赛事入口**：[robocon.org.cn/sys-index](https://www.robocon.org.cn/sys-index/)　·　**2027 规则书**：[Rulebook v@]([https://www.robocon.org.cn/sys-nd/129.html](https://github.com/ConQU2027/.github/blob/main/%E7%AC%AC%E4%BA%8C%E5%8D%81%E5%85%AD%E5%B1%8A%E5%85%A8%E5%9B%BD%E5%A4%A7%E5%AD%A6%E7%94%9F%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%A4%A7%E8%B5%9B%E5%A5%B3%E5%A8%B2%E8%A1%A5%E5%A4%A9%E7%AB%9E%E6%8A%80%E8%B5%9B%E8%A7%84%E5%88%99V2(1).pdf))
+我们的仓库记录了从规则分析、机械设计、电控开发、算法实现到赛场调试与迭代优化的全过程。这里不仅是技术产出，更是整个赛季协作、复盘与决策的统一入口。
+
+> 🔗 官方赛事入口：[robocon.org.cn/sys-index](https://www.robocon.org.cn/sys-index/)  
+> 📘 规则书：[v2 规则文档](https://www.robocon.org.cn/sys-nd/129.html)
 
 ---
 
-## 🎯 2027 赛季焦点
+## 🎯 赛季重点
 
 | 维度 | 内容 |
 |:--|:--|
 | **赛季主题** | 女娲补天 |
-| **核心机器人** | **TR（搬运机器人）** · **BR（建筑机器人）** |
-| **技术重心** | 机械结构设计、运动控制、多机协同、任务策略 |
-| **备赛周期** | 通常约十个月的设计、制作与迭代 |
+| **核心机器人** | TR（搬运机器人） / BR（建筑机器人） |
+| **技术重心** | 机械结构、运动控制、多机协同、任务策略 |
+| **备赛周期** | 约十个月的设计、制造、测试与迭代 |
 
 ---
 
-## 🌈 参与与协作
+## 🔧 技术栈
 
-- **队内成员**：按 [CONTRIBUTING.md](https://github.com/ConQU2027/.github/blob/main/CONTRIBUTING.md)（待创建）的分支规范提交；每个赛季开始前在本 README 更新一次**分工矩阵**。
-- **赛队外部同学 / 开源社区**：欢迎通过 Issue 提问、提交 PR，或在 [Discussions](https://github.com/orgs/ConQU2027/discussions) 交流规则理解与技术方案。
-- **规则相关问题**：优先查阅 [官方规则问答](https://www.robocon.org.cn/) 与规则书原文，再在队内讨论。
+- **C++**：机器人控制与底层逻辑
+- **Python**：数据处理、脚本工具与自动化
+- **ROS 2**：系统集成与协同控制
+- **GitHub Actions**：自动化构建、状态跟踪与团队协作
 
 ---
 
-## 📚 资源速查
+## 🤝 协作方式
+
+- **队内成员**：遵循仓库内分支与提交规范，保持任务清晰、版本可追踪
+- **社区协作**：欢迎通过 Issue、PR 或 Discussions 提出规则理解和技术方案讨论
+- **共同目标**：以工程化方式推进赛季攻关，并持续提升团队协作效率
+
+---
+
+## 🔗 资源速查
 
 | 资源 | 链接 |
 |:--|:--|
-| **ROBOCON 官方赛事页（你提供的入口）** | [robocon.org.cn/sys-index](https://www.robocon.org.cn/sys-index/) |
-| **2027 官方规则书 v2** | [robocon.org.cn/sys-nd/129.html](https://www.robocon.org.cn/sys-nd/129.html) |
+| **ROBOCON 官方赛事页** | [robocon.org.cn/sys-index](https://www.robocon.org.cn/sys-index/) |
+| **2027 官方规则书** | [robocon.org.cn/sys-nd/129.html](https://www.robocon.org.cn/sys-nd/129.html) |
 | **本队组织主页** | [github.com/ConQU2027](https://github.com/ConQU2027) |
 | **本队仓库索引** | [.github 仓库](https://github.com/ConQU2027/.github/tree/main) |
-
 
 ---
 
 <div align="center">
   <sub>
-
-  **ConQU2027** · ROBOCON 2027 赛季 · [官方赛事](https://www.robocon.org.cn/sys-index/) · [GitHub 组织](https://github.com/ConQU2027)
-
+    <strong>ConQU2027</strong> · ROBOCON 2027 赛季 · 团队协作与技术沉淀
   </sub>
 </div>
