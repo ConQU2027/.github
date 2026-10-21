@@ -19,15 +19,15 @@
 [![ROBOCON 2027](https://img.shields.io/badge/ROBOCON-2027%20%E5%A5%B3%E5%A8%B2%E8%A1%A5%E5%A4%A9-red?style=for-the-badge)](https://www.robocon.org.cn/sys-index/)
 [![Official Rules](https://img.shields.io/badge/Official-Rulebook%20v1.1-blue?style=for-the-badge)](https://www.robocon.org.cn/sys-nd/129.html)
 [![Team Repo](https://img.shields.io/badge/Team-ConQU2027-181717?style=for-the-badge&logo=github)](https://github.com/ConQU2027)
+
 ![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=c%2B%2B&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3670A0?style=flat-square&logo=python&logoColor=ffdd54)
 ![ROS 2](https://img.shields.io/badge/ROS_2-22314E?style=flat-square&logo=ros&logoColor=white)
 ![Last Commit](https://img.shields.io/github/last-commit/ConQU2027/.github?style=flat-square&label=last%20commit)
 ![Contributors](https://img.shields.io/github/contributors/ConQU2027/.github?style=flat-square&label=contributors)
+
 [![Discussions](https://img.shields.io/badge/Discussions-join-blue?style=flat-square&logo=github)](https://github.com/orgs/ConQU2027/discussions)
 [![Issues](https://img.shields.io/badge/Issues-open-lightgrey?style=flat-square&logo=github)](https://github.com/ConQU2027/.github/issues)
-
-</div>
 
 ---
 

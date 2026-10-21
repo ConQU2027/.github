@@ -18,11 +18,11 @@ jobs:
       - name: Generate metrics
         uses: lowlighter/metrics@latest
         with:
-          token: ${{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}}
+          token: ${{ secrets.GITHUB_TOKEN }}
           user: ConQU2027                 # 组织名称[reference:3]
           filename: metrics.svg
           committer_token: ${{ secrets.GITHUB_TOKEN }}
-          output_action: none            # 所有插件合并输出到一个 SVG
+          output_action: commit            # 所有插件合并输出到一个 SVG
 
           # ===== 基础内容：置空，只保留插件输出 =====
           base: ""
@@ -43,7 +43,7 @@ jobs:
 
           # ===== 4. Habits and activity =====
           plugin_habits: yes
-          plugin_habits_from: 100           # 分析最近 200 个事件，提高准确度[reference:9]
+          plugin_habits_from: 100           # 分析最近 100 个事件，提高准确度[reference:9]
           plugin_habits_charts: yes         # 活跃时段/星期图表[reference:10]
           plugin_habits_facts: yes          # 缩进风格、平均行长等“有趣事实”[reference:11]
 
@@ -56,3 +56,6 @@ jobs:
           plugin_followup: yes
           plugin_followup_sections: repositories   # 按仓库维度展示 issue/PR 健康度[reference:14]
           plugin_followup_indepth: yes             # 区分维护者/用户开启的 issue 与 PR，更准确
+
+          plugins_errors_fatal: yes   # 让插件错误直接导致 Workflow 失败，而不是静默处理[reference:7]
+          debug: yes                  # 输出更详细的日志[reference:8]
