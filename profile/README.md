@@ -5,8 +5,8 @@
      ================================================================ -->
 
 <p align="center">
-  <a href="https://github.com/ConQU2027"><img src="https://github.com/ConQU2027/.github/blob/main/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20261021164108_286_17.png" height="250" alt="ConQU2027"></a>
-  <a href="https://www.robocon.org.cn/sys-index/"><img src="https://github.com/ConQU2027/.github/blob/main/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20261021164113_288_17.png" height="250" alt="重庆大学"></a>
+  <a href="https://github.com/ConQU2027"><img src="https://github.com/ConQU2027/.github/blob/main/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20261021164108_286_17.png" height="400" alt="ConQU2027"></a>
+  <a href="https://www.robocon.org.cn/sys-index/"><img src="https://github.com/ConQU2027/.github/blob/main/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20261021164113_288_17.png" height="400" alt="重庆大学"></a>
 </p>
 <div align="center">
 <img src="https://raw.githubusercontent.com/ConQU2027/.github/main/metrics.svg" alt="ConQU2027 Metrics" width="100%">

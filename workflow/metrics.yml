@@ -1,0 +1,58 @@
+name: Generate ConQU2027 Metrics
+
+on:
+  schedule:
+    - cron: "0 2 * * *"   # 每天 UTC 2:00 自动更新
+  workflow_dispatch:        # 支持手动触发
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write           # 允许将生成的 SVG 提交回仓库
+
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Generate metrics
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: ConQU2027                 # 组织名称[reference:3]
+          filename: metrics.svg
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
+          output_action: none            # 所有插件合并输出到一个 SVG
+
+          # ===== 基础内容：置空，只保留插件输出 =====
+          base: ""
+
+          # ===== 1. Isometric commit calendar =====
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year   # 可选 half-year / full-year
+
+          # ===== 2. Languages activity =====
+          plugin_languages: yes
+          plugin_languages_sections: most-used, recently-used   # 同时显示“最常用”和“最近使用”
+          plugin_languages_details: percentage, bytes-size      # 显示百分比和体积
+          plugin_languages_limit: 8
+          plugin_languages_indepth: yes                         # 最近使用需要 indepth 模式
+
+          # ===== 3. Lines of code changed =====
+          plugin_lines: yes                                      # 启用即可[reference:8]
+
+          # ===== 4. Habits and activity =====
+          plugin_habits: yes
+          plugin_habits_from: 200           # 分析最近 200 个事件，提高准确度[reference:9]
+          plugin_habits_charts: yes         # 活跃时段/星期图表[reference:10]
+          plugin_habits_facts: yes          # 缩进风格、平均行长等“有趣事实”[reference:11]
+
+          # ===== 5. Repository contributors =====
+          plugin_contributors: yes
+          plugin_contributors_head: main    # 贡献者范围：从仓库初始到 main 分支[reference:12]
+          plugin_contributors_ignored: bot  # 忽略 bot 账号[reference:13]
+
+          # ===== 6. Follow-up of issues and PRs =====
+          plugin_followup: yes
+          plugin_followup_sections: repositories   # 按仓库维度展示 issue/PR 健康度[reference:14]
+          plugin_followup_indepth: yes             # 区分维护者/用户开启的 issue 与 PR，更准确
