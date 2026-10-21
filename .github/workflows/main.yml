@@ -50,9 +50,5 @@ jobs:
           plugin_contributors_head: main
           plugin_contributors_ignored: bot
 
-          plugin_followup: yes
-          plugin_followup_sections: repositories
-          plugin_followup_indepth: yes
-
           plugins_errors_fatal: no
           debug: no

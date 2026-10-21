@@ -5,21 +5,18 @@
 
 <p align="center">
   <a href="https://github.com/ConQU2027">
-    <img src="https://github.com/ConQU2027/.github/blob/main/%E5%BE%AE%E4%BF%A8%E5%9B%BE%E7%89%87_20261021164108_286_17.png" width="420" alt="ConQU2027" />
-    <img src="https://github.com/ConQU2027/.github/blob/main/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20261021164113_288_17.png" height="400" alt="重庆大学"></a>
+    <img src="https://github.com/ConQU2027/.github/blob/main/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20261021164108_286_17.png" width="300" alt="ConQU2027" />
+    <img src="https://github.com/ConQU2027/.github/blob/main/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20261021164113_288_17.png" height="300" 
+    alt="重庆大学"></a>
   </a>
 </p>
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/ConQU2027/.github/main/metrics.svg" alt="ConQU2027 metrics" width="100%" />
-</div>
 
 # ConQU2027
 
 **ROBOCON 2027 · “女娲补天” 参赛队**
 
 [![ROBOCON 2027](https://img.shields.io/badge/ROBOCON-2027%20%E5%A5%B3%E5%A8%B2%E8%A1%A5%E5%A4%A9-red?style=for-the-badge)](https://www.robocon.org.cn/sys-index/)
-[![Official Rules](https://img.shields.io/badge/Official-Rulebook%20v1.1-blue?style=for-the-badge)](https://www.robocon.org.cn/sys-nd/129.html)
+[![Official Rules](https://img.shields.io/badge/Official-Rulebook%20v2-blue?style=for-the-badge)](https://github.com/ConQU2027/.github/blob/main/%E7%AC%AC%E4%BA%8C%E5%8D%81%E5%85%AD%E5%B1%8A%E5%85%A8%E5%9B%BD%E5%A4%A7%E5%AD%A6%E7%94%9F%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%A4%A7%E8%B5%9B%E5%A5%B3%E5%A8%B2%E8%A1%A5%E5%A4%A9%E7%AB%9E%E6%8A%80%E8%B5%9B%E8%A7%84%E5%88%99V2(1).pdf)
 [![Team Repo](https://img.shields.io/badge/Team-ConQU2027-181717?style=for-the-badge&logo=github)](https://github.com/ConQU2027)
 
 ![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=c%2B%2B&logoColor=white)
@@ -40,7 +37,7 @@ ConQU2027 是征战 ROBOCON 2027 赛季的参赛队伍。2027 赛季主题为“
 我们的仓库记录了从规则分析、机械设计、电控开发、算法实现到赛场调试与迭代优化的全过程。这里不仅是技术产出，更是整个赛季协作、复盘与决策的统一入口。
 
 > 🔗 官方赛事入口：[robocon.org.cn/sys-index](https://www.robocon.org.cn/sys-index/)  
-> 📘 规则书：[v2 规则文档](https://www.robocon.org.cn/sys-nd/129.html)
+> 📘 规则书：[v2 规则文档](https://github.com/ConQU2027/.github/blob/main/%E7%AC%AC%E4%BA%8C%E5%8D%81%E5%85%AD%E5%B1%8A%E5%85%A8%E5%9B%BD%E5%A4%A7%E5%AD%A6%E7%94%9F%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%A4%A7%E8%B5%9B%E5%A5%B3%E5%A8%B2%E8%A1%A5%E5%A4%A9%E7%AB%9E%E6%8A%80%E8%B5%9B%E8%A7%84%E5%88%99V2(1).pdf)
 
 ---
 
@@ -50,38 +47,21 @@ ConQU2027 是征战 ROBOCON 2027 赛季的参赛队伍。2027 赛季主题为“
 |:--|:--|
 | **赛季主题** | 女娲补天 |
 | **核心机器人** | TR（搬运机器人） / BR（建筑机器人） |
-| **技术重心** | 机械结构、运动控制、多机协同、任务策略 |
-| **备赛周期** | 约十个月的设计、制造、测试与迭代 |
-
----
-
-## 🔧 技术栈
-
-- **C++**：机器人控制与底层逻辑
-- **Python**：数据处理、脚本工具与自动化
-- **ROS 2**：系统集成与协同控制
-- **GitHub Actions**：自动化构建、状态跟踪与团队协作
-
----
-
-## 🤝 协作方式
-
-- **队内成员**：遵循仓库内分支与提交规范，保持任务清晰、版本可追踪
-- **社区协作**：欢迎通过 Issue、PR 或 Discussions 提出规则理解和技术方案讨论
-- **共同目标**：以工程化方式推进赛季攻关，并持续提升团队协作效率
-
----
 
 ## 🔗 资源速查
 
 | 资源 | 链接 |
 |:--|:--|
 | **ROBOCON 官方赛事页** | [robocon.org.cn/sys-index](https://www.robocon.org.cn/sys-index/) |
-| **2027 官方规则书** | [robocon.org.cn/sys-nd/129.html](https://www.robocon.org.cn/sys-nd/129.html) |
+| **2027 官方规则书** | [最新规则书](https://github.com/ConQU2027/.github/blob/main/%E7%AC%AC%E4%BA%8C%E5%8D%81%E5%85%AD%E5%B1%8A%E5%85%A8%E5%9B%BD%E5%A4%A7%E5%AD%A6%E7%94%9F%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%A4%A7%E8%B5%9B%E5%A5%B3%E5%A8%B2%E8%A1%A5%E5%A4%A9%E7%AB%9E%E6%8A%80%E8%B5%9B%E8%A7%84%E5%88%99V2(1).pdf) |
 | **本队组织主页** | [github.com/ConQU2027](https://github.com/ConQU2027) |
 | **本队仓库索引** | [.github 仓库](https://github.com/ConQU2027/.github/tree/main) |
 
 ---
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/ConQU2027/.github/main/metrics.svg" alt="ConQU2027 metrics" width="100%" />
+</div>
 
 <div align="center">
   <sub>
