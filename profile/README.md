@@ -5,10 +5,10 @@
 
 <p align="center">
   <a href="https://github.com/ConQU2027">
-    <img src="https://github.com/ConQU2027/.github/blob/main/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20261021164108_286_17.png" width="420" alt="ConQU2027" />
+    <img src="https://github.com/ConQU2027/.github/blob/main/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20261021164108_286_17.png" width="400" alt="ConQU2027" />
   </a>
   <a href="https://www.robocon.org.cn/sys-index/">
-    <img src="https://github.com/ConQU2027/.github/blob/main/%E5%BE%AE%E4%BF%A1%E5%9B%89%E7%89%87_20261021164113_288_17.png" width="420" alt="ROBOCON 2027" />
+    <img src="https://github.com/ConQU2027/.github/blob/main/%E5%BE%AE%E4%BF%A1%E5%9B%89%E7%89%87_20261021164113_288_17.png" width="400" alt="ROBOCON 2027" />
   </a>
 </p>
 
