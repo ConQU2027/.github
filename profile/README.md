@@ -9,9 +9,9 @@
   </a>
 </p>
 
-<div align="center">
+<!-- <div align="center">
   <img src="https://raw.githubusercontent.com/ConQU2027/.github/main/metrics.svg" alt="ConQU2027 metrics" width="100%" />
-</div>
+</div> -->
 
 # ConQU2027
 
